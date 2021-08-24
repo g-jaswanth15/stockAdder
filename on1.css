@@ -1,0 +1,91 @@
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(10, 107, 110);
+    font-size: 40px;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(19, 3, 110);
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+label{
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 5px;
+
+}
+input[type="text"]{
+    font-size: 15px;
+    font-family: initial;
+    font-weight: initial;
+    height: 25px;
+}
+::placeholder{
+    text-align: center;
+    color: rgb(212, 26, 26);
+    font-size: 18px;
+    font-weight: 700;
+}
+#Add{
+    color: rgb(240, 236, 236);
+    border-radius: 20px;
+    font-family: sans-serif;
+    background-color: rgb(72, 110, 3);
+    border: none;
+    font-size: 15px;
+    padding: 10px 15px;
+    margin-left: 10px;
+}
+#Add:hover{
+    background-color: rgb(176, 178, 32);
+}
+#stock{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+#stockList{
+    margin-top: 100px;
+    box-shadow: 0px 10px 10px rgba(177, 171, 171, 0.185);
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,50%);
+}
+.delete{
+    margin-left: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-end;
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+.delete:hover{
+    background-color: rosybrown;
+    color: rgb(22, 21, 20);
+}
+.text{
+    list-style-type: none;
+    font-size: 20px;
+    font-family:sans-serif;
+}
+ul ::before{
+    content: "\00BB";
+    margin-right: 5px;
+    font-size: 25px;
+    color: rgb(26, 39, 2);
+    text-shadow: 0px 10px 10px rgba(10, 107, 110, 0.514);
+}
+
+li ::before{
+    content: none;
+}
+#stocklist :last-of-type(){
+    margin-bottom: 100px;
+}
